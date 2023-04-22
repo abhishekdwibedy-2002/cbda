@@ -37,7 +37,7 @@ st.sidebar.image(image , use_column_width=True, output_format='auto')
 st.sidebar.markdown("---")
 
 
-st.sidebar.markdown("<br> <br> <br> <br> <br> <br> <h1 style='text-align: center; font-size: 18px; color: #0080FF;'>© 2023 | Ioannis Bakomichalis</h1>", unsafe_allow_html=True)
+st.sidebar.markdown("<br> <br> <br> <br> <br> <br> <h1 style='text-align: center; font-size: 18px; color: #0080FF;'>© 2023 </h1>", unsafe_allow_html=True)
 
 
 def clean_text(tweet):
@@ -167,5 +167,6 @@ if button_predict:
         expander_accuracy = st.expander("Information", expanded=False)
         with expander_accuracy:
             st.info("Model Accuracy using Random Forest (RF) Classifier!")
-        st.warning("Accuracy:  **_91.70 %_**")
+        st.warning("Accuracy:  **_83.03 %_**")
         st.markdown("---")
+
